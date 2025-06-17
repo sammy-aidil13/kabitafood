@@ -18,7 +18,7 @@
                             </button>
                         </div>
                         <div class="col-md-4 my-auto p-0">
-                            <img src="{{ url('images/landing-page/user-listing-images-removebg-preview-2.png') }}"
+                            <img src="{{ url('images/landing-page/logo-kabita.png') }}"
                                 class="img-fluid img-jumbotron d-none d-md-block" />
                         </div>
                     </div>

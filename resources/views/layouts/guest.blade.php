@@ -81,55 +81,19 @@
     </nav>
 
     <!-- ------------------------ Double Header Section ------------------------ -->
-    <nav class="py-1 bg-white border-bottom d-none d-sm-none d-md-none d-lg-block text-grey">
-        <div class="container d-flex flex-wrap fs-15">
-            <ul class="nav me-auto">
-                <li class="nav-item me-2">
-                    <a href="/" class="nav-link link-dark text-grey px-2 active" aria-current="page">Beranda</a>
-                </li>
-                <li class="nav-item me-2">
-                    <a href="/#tentang-kami" class="nav-link link-dark text-grey px-2">Tentang Kami</a>
-                </li>
-                <li class="nav-item me-2">
-                    <a href="{{ route('categories.index') }}" class="nav-link link-dark text-grey px-2">Kategori</a>
-                </li>
-                <li class="nav-item me-2">
-                    <a href="{{ route('menus.index') }}" class="nav-link link-dark text-grey px-2">Menu</a>
-                </li>
-                <li class="nav-item me-2">
-                    <a href="/#galeri-outlet" class="nav-link link-dark text-grey px-2">Galeri Outlet</a>
-                </li>
-            </ul>
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link link-dark text-grey px-2 no-effect-hover">Nomor Telepon</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-dark text-grey px-2 no-effect-hover">|</a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://wa.me/+628123456789" class="nav-link link-dark text-grey px-2" target="_blank">
-                        +628123456789</a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://wa.me/+628987654321" target="_blank"
-                        class="nav-link link-dark text-grey px-2">+628987654321</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
     <header class="py-3 mb-4 border-bottom d-none d-sm-none d-md-none d-lg-block bg-white sticky-top">
         <div class="container d-flex flex-wrap justify-content-center">
             <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
-                <img src="{{ asset('images/logo/logo-kabita.png') }}" alt="Logo Kabita" class="me-2" style="height: 64px; width: auto;">
-                <span class="fs-4 fw-bold">Kabita Food</span>
+            <img src="{{ asset('images/logo/logo-kabita.png') }}"
+                alt="Logo Kabita"
+                class="me-3"
+                style="height: 48px; width: auto;">
+            <span class="fs-3 fw-bold">Kabita Food</span>
             </a>
 
             <button class="btn btn-primary text-white me-2 px-5 fw-500"
                 onclick="location.href='http://127.0.0.1:8000/reservation/step-one'" type="button"> <i
-                    class="fas fa-calendar-plus"></i> &nbsp; &nbsp; Buat
-                Reservasi</button>
+                    class="fas fa-shopping-cart"></i> &nbsp; &nbsp; Keranjang</button>
         </div>
     </header>
 
