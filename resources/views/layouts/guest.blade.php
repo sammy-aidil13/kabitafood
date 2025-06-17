@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Restawrant — Harga Kaki Lima Rasa Kaki Lima!</title>
+    <title>Kabita Food — Harga Kaki Lima Rasa Kaki Lima!</title>
 
-    <meta name="title" content="Restawrant — Harga Kaki Lima Rasa Kaki Lima!">
-    <meta name="description" content="  Restawrant adalah restoran yang menyediakan berbagai macam kategori makanan mulai dari minuman,
+    <meta name="title" content="Kabita Food — Harga Kaki Lima Rasa Kaki Lima!">
+    <meta name="description" content="  Kabita Food adalah restoran yang menyediakan berbagai macam kategori makanan mulai dari minuman,
                         dessert dan lain lain dengan harga kaki lima namun rasanya bintang lima. Outlet kita selalu
                         rame, jadi jangan lupa reservasi ya!">
     <link rel="icon" href="{{ url('cuba/assets/images/favicon.ico') }}" type="image/x-icon">
@@ -33,9 +33,9 @@
 <body>
 
     <!-- ------------------------ Mobile Header Section ------------------------ -->
-    <nav class="navbar navbar-light bg-white d-block d-sm-block d-md-block d-lg-none py-3 border-bottom">
+    <nav class="navbar navbar-light bg-primary d-block d-sm-block d-md-block d-lg-none py-3 border-bottom">
         <div class="container-fluid">
-            <a class="navbar-brand fw-bold" href="#">🍣 Restawrant</a>
+            <a class="navbar-brand fw-bold" href="#">Kabita Food</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -44,7 +44,7 @@
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title fw-bold" id="offcanvasNavbarLabel">
-                        🍣 Restawrant
+                        Kabita Food
                     </h5>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
@@ -70,7 +70,7 @@
                     </ul>
                     <hr />
                     <div class="d-grid gap-2">
-                        <button class="btn btn-warning text-white me-2 px-5 fw-500"
+                        <button class="btn btn-primary text-white me-2 px-5 fw-500"
                             onclick="location.href='http://127.0.0.1:8000/reservation/step-one'" type="button"> <i
                                 class="fas fa-calendar-plus"></i> &nbsp; &nbsp; Buat
                             Reservasi</button>
@@ -122,9 +122,11 @@
     <header class="py-3 mb-4 border-bottom d-none d-sm-none d-md-none d-lg-block bg-white sticky-top">
         <div class="container d-flex flex-wrap justify-content-center">
             <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
-                <span class="fs-3 fw-bold">🍣 Restawrant</span>
+                <img src="{{ asset('images/logo/logo-kabita.png') }}" alt="Logo Kabita" class="me-2" style="height: 64px; width: auto;">
+                <span class="fs-4 fw-bold">Kabita Food</span>
             </a>
-            <button class="btn btn-warning text-white me-2 px-5 fw-500"
+
+            <button class="btn btn-primary text-white me-2 px-5 fw-500"
                 onclick="location.href='http://127.0.0.1:8000/reservation/step-one'" type="button"> <i
                     class="fas fa-calendar-plus"></i> &nbsp; &nbsp; Buat
                 Reservasi</button>
@@ -137,72 +139,32 @@
     </main>
 
     <!-- --------------------------- Footer Section ---------------------------- -->
-    <footer class="py-5">
+    <footer class="py-5" style="background-color: #0d6efd; color: white;">
         <div class="container">
             <div class="row text-white">
-                <div class="col-md-6 border-end">
-                    <h4 class="fw-bold">🍣 Restawrant — Harga kaki lima rasa bintang lima!</h4>
-                    <p class="">
-                        Restawrant adalah restoran yang menyediakan berbagai macam kategori makanan mulai dari minuman,
+                <div class="col-md-10 border-end">
+                    <h4 class="fw-bold">Kabita Food — Harga kaki lima rasa bintang lima!</h4>
+                    <p style="text-align: justify;">
+                        Kabita Food adalah restoran yang menyediakan berbagai macam kategori makanan mulai dari minuman,
                         dessert dan lain lain dengan harga kaki lima namun rasanya bintang lima. Outlet kita selalu
                         rame, jadi jangan lupa reservasi ya!
                     </p>
                     <small class="d-block mb-3">
-                        &copy; 2022 Syauqizaidan — Made with laravel 9.4.1 and bootstrap 5.2.0
+                        &copy; 2025 Pelita Surya — Made with laravel 9.4.1 and bootstrap 5.2.0
                     </small>
                 </div>
 
-                <div class="col-6 col-md ms-0 ms-md-4">
-                    <h4 class="fw-bold mb-3">Navigasi Cepat</h4>
-                    <ul class="list-unstyled">
-                        <li class="mb-1">
-                            <a class="link-light text-decoration-none" href="/userlisting?srczz=&katfilt=6901">
-                                Beranda
-                            </a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="link-light text-decoration-none" href="/userlisting?srczz=&katfilt=6905">
-                                Tentang Kami
-                            </a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="link-light text-decoration-none" href="/userlisting?srczz=&katfilt=6904">
-                                Kategori
-                            </a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="link-light text-decoration-none" href="/userlisting?srczz=&katfilt=6902">
-                                Menu
-                            </a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="link-light text-decoration-none" href="/userlisting?srczz=&katfilt=6903">
-                                Galeri Outlet
-                            </a>
-                        </li>
-                    </ul>
-                </div>
                 <div class="col-6 col-md">
                     <h4 class="fw-bold mb-3">Sosial Media</h4>
                     <ul class="list-unstyled">
                         <li class="mb-1">
-                            <a class="link-light text-decoration-none" href="#">
+                            <a class="link-light text-decoration-none" href="https://wa.me/6281548250271?text=Halo%20saya%20ingin%20tanya%20menu%20Kabita%20Food">
                                 <i class="fab fa-whatsapp"></i> &nbsp; Whatsapp
                             </a>
                         </li>
                         <li class="mb-1">
-                            <a class="link-light text-decoration-none" href="#" target="_blank">
+                            <a class="link-light text-decoration-none" href="https://instagram.com/kabita.fnb" target="_blank">
                                 <i class="fab fa-instagram"></i> &nbsp; Instagram
-                            </a>
-                        </li>
-                        <li class="mb-1">
-                            <a class="link-light text-decoration-none" href="#" target="_blank">
-                                <i class="fab fa-twitter"></i> &nbsp;Twitter
-                            </a>
-                        </li>
-                        <li class="mb-5 mb-md-1">
-                            <a class="link-light text-decoration-none" href="#" target="_blank">
-                                <i class="fab fa-facebook-square"></i> &nbsp; Facebook
                             </a>
                         </li>
                     </ul>

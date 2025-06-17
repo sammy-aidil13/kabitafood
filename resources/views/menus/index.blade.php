@@ -3,11 +3,11 @@
     <!-- ------------------------ Menu Hero Section ------------------------ -->
     <section>
         <div class="container">
-            <div class="mt-4 mt-md-0 mb-3 bg-warning text-white rounded-3">
+            <div class="mt-4 mt-md-0 mb-3 bg-primary text-white rounded-3">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-8 p-5 my-auto align-center">
-                            <h1 class="display-5 fw-bold">Katalog Menu Makanan & Minuman Restawrant</h1>
+                            <h1 class="display-5 fw-bold">Katalog Menu Makanan & Minuman Kabita Food</h1>
                             <p class="col-md-10">
                                 Disini kalian bisa nemuin semua menu dengan berbagai macam kategori yang dapat kalian
                                 pesan
@@ -32,7 +32,7 @@
         <div class="container" style="margin-bottom: 100px">
             <div class="row g-3">
                 <div class="col-md-4 mb-3 d-none d-md-block">
-                    <div class="flex-shrink-0 p-3 bg-warning rounded-3 sticky-top menu-filter">
+                    <div class="flex-shrink-0 p-3 bg-primary rounded-3 sticky-top menu-filter">
                         <a href="/"
                             class="
                     d-flex
